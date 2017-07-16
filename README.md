@@ -1,7 +1,6 @@
-# Algorithm
+# Algorithm Practice
 
 ### Union-find Problem Time Comsuming
-
 |           algorithm           | worst-case time |
 | :---------------------------: | :-------------: |
 |          quick-find           |       M N       |
@@ -11,7 +10,5 @@
 | wighted QU + path compression |   N + M lg*N    |
 
 ### Application
+Percolation Model: Monte Carlo Simulation
 
-Percolation Model
-
-*  Monte Carlo Simulation
