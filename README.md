@@ -1,7 +1,7 @@
 # Algorithm Practice
 
 ## Union-find 
-### Time Comsuming
+### Time Consuming
 |           algorithm           | worst-case time |
 | :---------------------------: | :-------------: |
 |          quick-find           |       M N       |
