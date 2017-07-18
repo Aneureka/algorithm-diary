@@ -1,6 +1,6 @@
 # Algorithm Practice
 
-## Union-find 
+## Union-find
 ### Time Consuming
 |           algorithm           | worst-case time |
 | :---------------------------: | :-------------: |
@@ -11,5 +11,8 @@
 | wighted QU + path compression |   N + M lg*N    |
 
 ### Application
-Percolation Model: Monte Carlo Simulation
+Percolation Model(渗透模型): Monte Carlo Simulation
 
+## Simple Data Structure
+### Linked List
+总感觉LinkedList额Itr的出现有点奇怪，像是暴露了某些实现...
