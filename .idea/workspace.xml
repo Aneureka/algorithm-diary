@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2441837d-a5fd-4b40-9743-71486a96e2f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListItr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/linkedList/ListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/QueueByLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/stack/StackByLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/simple_datastructure/stack/StackByResizingArray.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/simple_datastructure/LinkedList.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -37,32 +35,69 @@
       <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simple_datastructure/LinkedList.java">
+      <file leaf-file-name="QueueByLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/simple_datastructure/QueueByLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="72" column="5" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="273">
+              <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="method#peek#0;class#QueueByLinkedList#0" expanded="false" />
+                <element signature="method#toString#0;class#QueueByLinkedList#0" expanded="false" />
+                <element signature="class#ListIterator#0;class#QueueByLinkedList#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1500455929502" expanded="true" signature="81182:81199" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81182:81217" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81182:81230" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81182:81245" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81280:83432" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81293:83417" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81347:81642" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81366:81627" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81429:81607" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81469:81573" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81490:81551" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81692:82019" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81711:82004" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81806:81984" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81846:81950" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="81867:81928" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82070:82335" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82089:82320" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82122:82300" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82162:82266" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82183:82244" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82378:82684" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82397:82669" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82471:82649" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82511:82615" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82532:82593" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82735:83086" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82754:83071" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82834:83051" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82874:83017" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="82895:82995" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="83138:83403" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="83157:83388" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="83190:83368" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="83230:83334" ph="..." />
+                <marker date="1500455929502" expanded="true" signature="83251:83312" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,12 +106,9 @@
       <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,19 +116,11 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="-406">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +129,8 @@
       <file leaf-file-name="LinkedListApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="686">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -115,26 +139,19 @@
       <file leaf-file-name="LinkedListItr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListItr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="357">
               <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <first_editor relative-caret-position="399">
+                <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -181,6 +198,13 @@
         <option value="$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java" />
         <option value="$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/Stack.java" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/StackByArray.java" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/stack/StackByArray.java" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/stack/StackByLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/StackByLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/simple_datastructure/QueueByLinkedList.java" />
       </list>
     </option>
   </component>
@@ -189,6 +213,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -214,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,32 +287,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_datastructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linkedList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,6 +299,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simple_datastructure" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -307,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListApp">
+  <component name="RunManager" selected="Application.QueueByLinkedList">
     <configuration default="false" name="QuickFindUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -336,6 +346,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="simple_datastructure.linkedList.LinkedListApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StackByResizingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="simple_datastructure.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="simple_datastructure.stack.StackByResizingArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="QueueByLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="simple_datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="simple_datastructure.QueueByLinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -735,19 +785,26 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.QuickFindUF" />
       <item index="1" class="java.lang.String" itemvalue="Application.LinkedListApp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StackByResizingArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.QueueByLinkedList" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QuickFindUF" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.QueueByLinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StackByResizingArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinkedListApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.QuickFindUF" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -763,12 +820,22 @@
       <workItem from="1500206737283" duration="782000" />
       <workItem from="1500219264057" duration="783000" />
       <workItem from="1500220517593" duration="372000" />
-      <workItem from="1500342539441" duration="2506000" />
+      <workItem from="1500342539441" duration="4834000" />
+      <workItem from="1500366620259" duration="93000" />
+      <workItem from="1500450808194" duration="4519000" />
     </task>
+    <task id="LOCAL-00001" summary="default">
+      <created>1500345295145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500345295145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10853000" />
+    <option name="totallyTimeSpent" value="17793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,25 +847,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21291053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1993205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20951302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16738197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -811,7 +879,6 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,6 +886,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="default" />
+    <option name="LAST_COMMIT_MESSAGE" value="default" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -829,6 +900,226 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500455929502" expanded="true" signature="81182:81199" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81217" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81230" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81245" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81280:83432" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81293:83417" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81347:81642" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81366:81627" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81429:81607" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81469:81573" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81490:81551" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81692:82019" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81711:82004" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81806:81984" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81846:81950" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81867:81928" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82070:82335" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82089:82320" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82122:82300" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82162:82266" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82183:82244" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82378:82684" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82397:82669" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82471:82649" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82511:82615" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82532:82593" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82735:83086" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82754:83071" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82834:83051" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82874:83017" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82895:82995" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83138:83403" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83157:83388" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83190:83368" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83230:83334" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83251:83312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListItr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/stack/StackByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ListIterator#0;class#StackByLinkedList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500455929502" expanded="true" signature="81182:81199" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81217" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81230" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81245" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81280:83432" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81293:83417" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81347:81642" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81366:81627" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81429:81607" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81469:81573" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81490:81551" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81692:82019" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81711:82004" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81806:81984" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81846:81950" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81867:81928" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82070:82335" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82089:82320" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82122:82300" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82162:82266" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82183:82244" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82378:82684" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82397:82669" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82471:82649" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82511:82615" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82532:82593" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82735:83086" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82754:83071" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82834:83051" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82874:83017" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82895:82995" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83138:83403" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83157:83388" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83190:83368" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83230:83334" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83251:83312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListItr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/stack/StackByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ListIterator#0;class#StackByLinkedList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -848,10 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,10 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,10 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,10 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,97 +1278,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/LinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="72" column="5" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <marker date="1500455929502" expanded="true" signature="81182:81199" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81217" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81230" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81182:81245" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81280:83432" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81293:83417" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81347:81642" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81366:81627" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81429:81607" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81469:81573" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81490:81551" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81692:82019" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81711:82004" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81806:81984" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81846:81950" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="81867:81928" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82070:82335" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82089:82320" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82122:82300" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82162:82266" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82183:82244" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82378:82684" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82397:82669" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82471:82649" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82511:82615" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82532:82593" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82735:83086" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82754:83071" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82834:83051" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82874:83017" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="82895:82995" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83138:83403" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83157:83388" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83190:83368" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83230:83334" ph="..." />
+            <marker date="1500455929502" expanded="true" signature="83251:83312" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="-406">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java">
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="315">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListItr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="357">
           <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/linkedList/LinkedListApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/stack/StackByResizingArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/stack/StackByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ListIterator#0;class#StackByLinkedList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simple_datastructure/QueueByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="method#peek#0;class#QueueByLinkedList#0" expanded="false" />
+            <element signature="method#toString#0;class#QueueByLinkedList#0" expanded="false" />
+            <element signature="class#ListIterator#0;class#QueueByLinkedList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

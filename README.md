@@ -15,4 +15,6 @@ Percolation Model(渗透模型): Monte Carlo Simulation
 
 ## Simple Data Structure
 ### Linked List
-总感觉LinkedListItr的出现有点奇怪，像是暴露了某些实现...
+总感觉LinkedListItr不在内部有点奇怪，像是暴露了某些实现...
+### Stack
+模板+
