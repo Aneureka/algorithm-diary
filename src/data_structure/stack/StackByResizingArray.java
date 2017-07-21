@@ -1,4 +1,4 @@
-package simple_datastructure.stack;
+package data_structure.stack;
 
 import java.util.NoSuchElementException;
 

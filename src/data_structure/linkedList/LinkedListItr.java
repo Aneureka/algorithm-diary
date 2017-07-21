@@ -1,4 +1,4 @@
-package simple_datastructure.linkedList;
+package data_structure.linkedList;
 
 /**
  * Created by Hiki on 2017/7/18.

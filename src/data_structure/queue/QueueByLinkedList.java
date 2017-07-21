@@ -1,4 +1,4 @@
-package simple_datastructure.stack;
+package data_structure.queue;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -7,10 +7,10 @@ import java.util.NoSuchElementException;
  * Created by Hiki on 2017/7/18.
  * QueueByLinkedList implementation based on linked list
  */
-public class StackByLinkedList<T> implements Iterable<T> {
+public class QueueByLinkedList<T> implements Iterable<T> {
 
-    private Node<T> first; // top of the stack
-    private int n; // size of the stack
+    private Node<T> head, tail; // head and tail of the queue
+    private int n; // size of the queue
 
     // helper inner class
     private static class Node<T>{
@@ -18,41 +18,49 @@ public class StackByLinkedList<T> implements Iterable<T> {
         private Node<T> next;
     }
 
-    public StackByLinkedList() {
-        first = null;
+    public QueueByLinkedList() {
+        head = tail = null;
         n = 0;
     }
 
     public boolean isEmpty(){
-        return first == null;
+        return head == null;
     }
 
-    // return the number of items in the stack
+    // return the number of items in the queue
     public int size(){
         return n;
     }
 
-    public void push(T t){
-        Node<T> oldFirst = first;
-        first = new Node<>();
-        first.t = t;
-        first.next = oldFirst;
+    public void enqueue(T t){
+        Node<T> oldTail = tail;
+        tail = new Node<T>();
+        tail.t = t;
+        tail.next = null;
+        if (isEmpty())
+            head = tail;
+        else
+            oldTail.next = tail;
+        n++;
     }
 
-    public T pop(){
+    public T dequeue(){
         if (isEmpty())
             throw new NoSuchElementException();
-        T t = first.t;
-        first = first.next;
+        T t = head.t;
+        head = head.next;
         n--;
+        if (isEmpty())
+            tail = null;
         return t;
     }
 
     public T peek(){
         if (isEmpty())
             throw new NoSuchElementException();
-        return first.t;
+        return head.t;
     }
+
 
     @Override
     public String toString() {
@@ -66,7 +74,7 @@ public class StackByLinkedList<T> implements Iterable<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return new ListIterator<T>(first);
+        return new ListIterator<T>(head);
     }
 
     // an iterator, doesn't implement remove() since it's optional
@@ -92,6 +100,18 @@ public class StackByLinkedList<T> implements Iterable<T> {
             current = current.next;
             return item;
         }
+    }
+
+    public static void main(String[] args) {
+        QueueByLinkedList<String> queue = new QueueByLinkedList<>();
+        queue.enqueue("a");
+        queue.enqueue("b");
+        queue.enqueue("c");
+        queue.enqueue("d");
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
     }
 
 }
