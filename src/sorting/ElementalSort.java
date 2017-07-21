@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Created by Hiki on 2017/7/21.
  */
-public class Sort {
+public class ElementalSort {
 
     // Selection Sort
     public static void selectionSort(Comparable[] items){
