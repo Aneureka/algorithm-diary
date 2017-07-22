@@ -13,6 +13,7 @@
 ### Application
 Percolation Model(渗透模型): Monte Carlo Simulation
 
+
 ## Simple Data Structure
 ### Linked List
 总感觉LinkedListItr不在内部有点奇怪，像是暴露了某些实现...
@@ -20,6 +21,7 @@ Percolation Model(渗透模型): Monte Carlo Simulation
 Resizing Array的实现比较有意思呀...
 ### Queue
 链表实现，维护头尾指针及长度就好
+
 
 ## Sorting
 ### Selection Sort
@@ -55,8 +57,21 @@ Resizing Array的实现比较有意思呀...
 * 在稳定的排序算法中，有些实现也是不稳定的
 * 主要在多层排序中考虑稳定性
 
+### Summary
+|             | inplace? | stable? |   worst   |  average  |   best    |                 remakes                  |
+| :---------: | :------: | :-----: | :-------: | :-------: | :-------: | :--------------------------------------: |
+|  selection  |    √     |         | $N^2 / 2$ | $N^2 / 2$ | $N^2 / 2$ |               N exchanges                |
+|  insertion  |    √     |    √    | $N^2 / 2$ | $N^2 / 4$ |     N     |   use for small N or partially ordered   |
+|    shell    |    √     |         |     ?     |     ?     |     N     |         tight code, subquadratic         |
+|    merge    |          |    √    |  $NlogN$  |  $NlogN$  |  $NlogN$  |        $NlogN$ guarantee, stable         |
+|    quick    |    √     |         | $N^2 / 2$ |  $2NlnN$  |  $NlogN$  | $NlogN$ probabilistic guarantee fastest in practice |
+| 3-way quick |    √     |         | $N^2 / 2$ |  $2NlnN$  |     N     | improves quicksort in presence of duplicate keys |
+|     ???     |    √     |    √    |  $NlogN$  |  $NlogN$  |     N     |            holy soering grail            |
+
 ### Application
 Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，时间复杂度为O(n*logn)
 
+
+##Priority Queues
 
 
