@@ -1,4 +1,4 @@
-package data_structure.symbolic_table;
+package data_structure.symbol_table;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.NoSuchElementException;
 
 /**
  * Created by Hiki on 2017/8/21.
+ * Symbol table implementation based on linked list.
  */
 public class SequentialSearchST<Key, Value> {
 
@@ -81,9 +82,9 @@ public class SequentialSearchST<Key, Value> {
 
     public static void main(String[] args) {
         SequentialSearchST<Integer, String> st = new SequentialSearchST<>();
-//        st.put(1, "a");
-//        st.put(2, "b");
-//        st.put(3, "c");
+        st.put(1, "a");
+        st.put(2, "b");
+        st.put(3, "c");
         System.out.println(st.isEmpty());
         System.out.println(st.get(1));
         st.delete(2);

@@ -61,13 +61,13 @@ Resizing Array的实现比较有意思呀...
 |             | inplace? | stable? |   worst   |  average  |   best    |                 remarks                  |
 | :---------: | :------: | :-----: | :-------: | :-------: | :-------: | :--------------------------------------: |
 |  selection  |    √     |         | $N^2 / 2$ | $N^2 / 2$ | $N^2 / 2$ |               N exchanges                |
-|  insertion  |    √     |    √    | $N^2 / 2$ | $N^2 / 4$ |     N     |   use for small N or partially ordered   |
-|    shell    |    √     |         |     ?     |     ?     |     N     |         tight code, subquadratic         |
+|  insertion  |    √     |    √    | $N^2 / 2$ | $N^2 / 4$ |    $N$    |   use for small N or partially ordered   |
+|    shell    |    √     |         |    $?$    |    $?$    |    $N$    |         tight code, subquadratic         |
 |    merge    |          |    √    |  $NlogN$  |  $NlogN$  |  $NlogN$  |        $NlogN$ guarantee, stable         |
 |    quick    |    √     |         | $N^2 / 2$ |  $2NlnN$  |  $NlogN$  | $NlogN$ probabilistic guarantee fastest in practice |
-| 3-way quick |    √     |         | $N^2 / 2$ |  $2NlnN$  |     N     | improves quicksort in presence of duplicate keys |
+| 3-way quick |    √     |         | $N^2 / 2$ |  $2NlnN$  |    $N$    | improves quicksort in presence of duplicate keys |
 |    heap     |    √     |         | $2NlogN$  | $2NlogN$  |  $NlogN$  |       $NlogN$ guarantee, in-place        |
-|     ???     |    √     |    √    |  $NlogN$  |  $NlogN$  |     N     |            holy soering grail            |
+|     ???     |    √     |    √    |  $NlogN$  |  $NlogN$  |    $N$    |            holy soering grail            |
 
 ### Application
 Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，时间复杂度为O(n*logn)
@@ -81,3 +81,9 @@ Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，
 
 - 时间复杂度：O(N*logN)
 - in-place
+
+## Symbol Table
+
+* 链表实现：无序符号表、低效
+* 数组实现：有序符号表、相对高效
+
