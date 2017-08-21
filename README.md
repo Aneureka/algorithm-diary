@@ -1,6 +1,9 @@
 # Algorithm Practice
 
+
+
 ## Union-find
+
 ### Time Consuming
 |           algorithm           | worst-case time |
 | :---------------------------: | :-------------: |
@@ -12,6 +15,8 @@
 
 ### Application
 Percolation Model(渗透模型): Monte Carlo Simulation
+
+
 
 
 ## Simple Data Structure
@@ -73,6 +78,7 @@ Resizing Array的实现比较有意思呀...
 Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，时间复杂度为O(n*logn)
 
 
+
 ## Priority Queues
 
 用resizing-array实现，核心在于sink操作和swim操作
@@ -82,8 +88,15 @@ Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，
 - 时间复杂度：O(N*logN)
 - in-place
 
+
+
 ## Symbol Table
 
-* 链表实现：无序符号表、低效
-* 数组实现：有序符号表、相对高效
+| 数据结构       | 实现                                      | 优点                        | 缺点                                       |
+| ---------- | --------------------------------------- | ------------------------- | ---------------------------------------- |
+| 链表         | SequentialSearchST                      | 适用于小型问题                   | 对于大型符号表很慢                                |
+| 有序数组（二分查找） | BinarySearchST                          | 最优的查找效率和空间需求，能够进行有序性相关的操作 | 插入操作很慢                                   |
+| 二叉查找树      | BST                                     | 实现简单，能够进行有序性相关的操作         | 没有性能上界的保证，链接需要额外的空间                      |
+| 平衡二叉查找树    | RedBlackBST                             | 最优的查找和插入效率，能够进行有序性相关的操作   | 链接需要额外的空间                                |
+| 散列表        | SeparateChainHashST LinearProbingHashST | 能够快速地查找和插入常见类型的数据         | 需要计算每种类型的数据的散列，无法进行有序性相关的操作，连接和空结点需要额外的空间 |
 
