@@ -7,11 +7,11 @@
 ### Time Consuming
 |           algorithm           | worst-case time |
 | :---------------------------: | :-------------: |
-|          quick-find           |       M N       |
-|          quick-union          |       M N       |
-|          wighted QU           |   N + M logN    |
-|     QU + path compression     |   N + M logN    |
-| wighted QU + path compression |   N + M lg*N    |
+|          quick-find           |      $M N$      |
+|          quick-union          |      $M N$      |
+|          wighted QU           |  $N + M logN$   |
+|     QU + path compression     |  $N + M logN$   |
+| wighted QU + path compression |  $N + M lg*N$   |
 
 ### Application
 Percolation Model(渗透模型): Monte Carlo Simulation
@@ -26,6 +26,8 @@ Percolation Model(渗透模型): Monte Carlo Simulation
 Resizing Array的实现比较有意思呀...
 ### Queue
 链表实现，维护头尾指针及长度就好
+
+
 
 
 ## Sorting
@@ -90,6 +92,7 @@ Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，
 
 
 
+
 ## Symbol Table
 
 | 数据结构       | 实现                                      | 优点                        | 缺点                                       |
@@ -99,4 +102,16 @@ Graham scan（葛立恒扫描法）：计算一组平面点的凸包的算法，
 | 二叉查找树      | BST                                     | 实现简单，能够进行有序性相关的操作         | 没有性能上界的保证，链接需要额外的空间                      |
 | 平衡二叉查找树    | RedBlackBST                             | 最优的查找和插入效率，能够进行有序性相关的操作   | 链接需要额外的空间                                |
 | 散列表        | SeparateChainHashST LinearProbingHashST | 能够快速地查找和插入常见类型的数据         | 需要计算每种类型的数据的散列，无法进行有序性相关的操作，连接和空结点需要额外的空间 |
+
+## Balanced Search Trees
+
+### 2-3 Tree
+
+引出红黑树的数据结构，这个需要好好理解
+
+### Red-Black BST
+
+红黑树，配合《算法》里面红黑树的章节来看，很容易懂的
+
+
 
