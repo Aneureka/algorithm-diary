@@ -1,5 +1,5 @@
 # Algorithm Practice
-
+此Readme建议配合[Github with MathJax]（Chrome插件），以正常显示公式。
 
 
 ## Union-find
