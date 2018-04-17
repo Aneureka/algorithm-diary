@@ -1,10 +1,7 @@
 package data_structure.priority_queue;
 
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 /**
  * Created by Hiki on 2017/8/20.
