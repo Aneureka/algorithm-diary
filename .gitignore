@@ -10,7 +10,7 @@ target/
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
 
 ### NetBeans ###
 nbproject/private/
@@ -19,3 +19,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+*.iml
+cmake-build-debug/*
