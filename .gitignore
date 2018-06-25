@@ -10,7 +10,10 @@ target/
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea/*
+*.idea/*
+*.DS_Store
+*cmake-build-debug/*
+*CMakeLists.txt
 
 ### NetBeans ###
 nbproject/private/
