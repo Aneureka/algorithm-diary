@@ -1,3 +1,7 @@
+/**
+ * 这个是我原先的解法，其中图的节点用了struct来表示，但是TLE了...
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;
