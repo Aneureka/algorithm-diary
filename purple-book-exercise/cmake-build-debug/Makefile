@@ -123,32 +123,32 @@ purple_book_exercise/fast:
 	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/build
 .PHONY : purple_book_exercise/fast
 
-main.o: main.cpp.o
+chapter1/experiment4.o: chapter1/experiment4.cpp.o
 
-.PHONY : main.o
+.PHONY : chapter1/experiment4.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/main.cpp.o
-.PHONY : main.cpp.o
+chapter1/experiment4.cpp.o:
+	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o
+.PHONY : chapter1/experiment4.cpp.o
 
-main.i: main.cpp.i
+chapter1/experiment4.i: chapter1/experiment4.cpp.i
 
-.PHONY : main.i
+.PHONY : chapter1/experiment4.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/main.cpp.i
-.PHONY : main.cpp.i
+chapter1/experiment4.cpp.i:
+	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.i
+.PHONY : chapter1/experiment4.cpp.i
 
-main.s: main.cpp.s
+chapter1/experiment4.s: chapter1/experiment4.cpp.s
 
-.PHONY : main.s
+.PHONY : chapter1/experiment4.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/main.cpp.s
-.PHONY : main.cpp.s
+chapter1/experiment4.cpp.s:
+	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.s
+.PHONY : chapter1/experiment4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... purple_book_exercise"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... chapter1/experiment4.o"
+	@echo "... chapter1/experiment4.i"
+	@echo "... chapter1/experiment4.s"
 .PHONY : help
 
 

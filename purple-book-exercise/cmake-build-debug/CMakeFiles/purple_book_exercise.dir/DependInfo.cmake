@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/main.cpp" "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/cmake-build-debug/CMakeFiles/purple_book_exercise.dir/main.cpp.o"
+  "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/chapter1/experiment4.cpp" "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/cmake-build-debug/CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

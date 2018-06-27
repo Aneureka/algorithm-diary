@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/chapter1/experiment4.cpp
+stdio.h
+-
+

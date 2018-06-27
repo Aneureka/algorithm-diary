@@ -57,38 +57,38 @@ include CMakeFiles/purple_book_exercise.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/purple_book_exercise.dir/flags.make
 
-CMakeFiles/purple_book_exercise.dir/main.cpp.o: CMakeFiles/purple_book_exercise.dir/flags.make
-CMakeFiles/purple_book_exercise.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/purple_book_exercise.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/purple_book_exercise.dir/main.cpp.o -c "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/main.cpp"
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o: CMakeFiles/purple_book_exercise.dir/flags.make
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o: ../chapter1/experiment4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o -c "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/chapter1/experiment4.cpp"
 
-CMakeFiles/purple_book_exercise.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/purple_book_exercise.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/main.cpp" > CMakeFiles/purple_book_exercise.dir/main.cpp.i
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/chapter1/experiment4.cpp" > CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.i
 
-CMakeFiles/purple_book_exercise.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/purple_book_exercise.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/main.cpp" -o CMakeFiles/purple_book_exercise.dir/main.cpp.s
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/chapter1/experiment4.cpp" -o CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.s
 
-CMakeFiles/purple_book_exercise.dir/main.cpp.o.requires:
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.requires:
 
-.PHONY : CMakeFiles/purple_book_exercise.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.requires
 
-CMakeFiles/purple_book_exercise.dir/main.cpp.o.provides: CMakeFiles/purple_book_exercise.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/purple_book_exercise.dir/main.cpp.o.provides
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.provides: CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.requires
+	$(MAKE) -f CMakeFiles/purple_book_exercise.dir/build.make CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.provides.build
+.PHONY : CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.provides
 
-CMakeFiles/purple_book_exercise.dir/main.cpp.o.provides.build: CMakeFiles/purple_book_exercise.dir/main.cpp.o
+CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.provides.build: CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o
 
 
 # Object files for target purple_book_exercise
 purple_book_exercise_OBJECTS = \
-"CMakeFiles/purple_book_exercise.dir/main.cpp.o"
+"CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o"
 
 # External object files for target purple_book_exercise
 purple_book_exercise_EXTERNAL_OBJECTS =
 
-purple_book_exercise: CMakeFiles/purple_book_exercise.dir/main.cpp.o
+purple_book_exercise: CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o
 purple_book_exercise: CMakeFiles/purple_book_exercise.dir/build.make
 purple_book_exercise: CMakeFiles/purple_book_exercise.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/hiki/OneDrive - smail.nju.edu.cn/Projects/algorithm-diary/purple-book-exercise/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable purple_book_exercise"
@@ -99,7 +99,7 @@ CMakeFiles/purple_book_exercise.dir/build: purple_book_exercise
 
 .PHONY : CMakeFiles/purple_book_exercise.dir/build
 
-CMakeFiles/purple_book_exercise.dir/requires: CMakeFiles/purple_book_exercise.dir/main.cpp.o.requires
+CMakeFiles/purple_book_exercise.dir/requires: CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o.requires
 
 .PHONY : CMakeFiles/purple_book_exercise.dir/requires
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/purple_book_exercise.dir/main.cpp.o"
+  "CMakeFiles/purple_book_exercise.dir/chapter1/experiment4.cpp.o"
   "purple_book_exercise.pdb"
   "purple_book_exercise"
 )
