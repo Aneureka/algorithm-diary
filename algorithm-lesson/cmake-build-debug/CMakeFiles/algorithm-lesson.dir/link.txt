@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/algorithm-lesson.dir/contest8/problem_b.cpp.o  -o algorithm-lesson 
