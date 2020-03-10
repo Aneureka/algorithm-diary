@@ -1,126 +1,133 @@
-package advanced;
-
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Iterator;
 
 /**
- * @author hiki on 2018-04-16
- * Implement with HashMap & LinkedList [double direction]
- */
+ * @author Aneureka
+ * @createdAt 2020-03-09 16:32
+ * @description
+ **/
+public class LRUCache<K, V> implements Iterable<K> {
 
-public class LRUCache<K, V> {
+    private Node head;
+    private Node tail;
+    private HashMap<K, Node> map;
+    private int maxSize;
 
-    private static final int DEFAULT_SIZE = 5;
-
-    private int size;
-
-    private int currentSize;
-
-    private Map<K, ListNode<K, V>> cacheReader;
-
-    private ListNode<K, V> first;
-
-    private ListNode<K, V> last;
-
-    public LRUCache(int size) {
-        this.size = size;
-        cacheReader = new HashMap<>();
-    }
-
-    public LRUCache() {
-        this(DEFAULT_SIZE);
-    }
-
-    public void put(K key, V value) {
-
-        // if exists
-        if (cacheReader.containsKey(key)) {
-            ListNode<K, V> node = cacheReader.get(key);
-            moveToFirst(node);
-            node.value = value;
-            cacheReader.put(key, node);
-        }
-        else {
-            if (currentSize == size) {
-                ListNode<K, V> last = removeLast();
-                cacheReader.remove(last.key);
-            }
-            ListNode<K, V> node = new ListNode<>(key, value);
-            ListNode<K, V> first = appendFirst(node);
-            cacheReader.put(key, first);
-        }
-
+    public LRUCache(int maxSize) {
+        this.maxSize = maxSize;
+        this.map = new HashMap<>((int) Math.ceil(maxSize / 0.75));
+        head = new Node(null, null);
+        tail = new Node(null, null);
+        head.next = tail;
+        tail.prev = head;
     }
 
     public V get(K key) {
-        return cacheReader.get(key).value;
+        if (!map.containsKey(key)) {
+            return null;
+        }
+        Node node = map.get(key);
+        unlink(node);
+        appendHead(node);
+        return node.v;
     }
 
-    public void printStatus() {
-        ListNode<K, V> ptr = first;
-        while (ptr != null) {
-            System.out.println(ptr.key + "->" + ptr.value);
-            ptr = ptr.next;
+    public void put(K key, V value) {
+        if (map.containsKey(key)) {
+            unlink(map.get(key));
+        }
+        Node node = new Node(key, value);
+        appendHead(node);
+        map.put(key, node);
+        if (map.size() > maxSize) {
+            Node toRemoveNode = removeTail();
+            if (toRemoveNode != null) {
+                map.remove(toRemoveNode.k);
+            }
         }
     }
 
-    public int getCurrentSize() {
-        return currentSize;
+    private void unlink(Node node) {
+        Node prev = node.prev;
+        Node next = node.next;
+        prev.next = next;
+        next.prev = prev;
+        node.prev = null;
+        node.next = null;
     }
 
-    private ListNode<K, V> appendFirst(ListNode<K, V> node) {
+    private void appendHead(Node node) {
+        node.prev = head;
+        node.next = head.next;
+        head.next.prev = node;
+        head.next = node;
+    }
 
-        if (currentSize == 0) {
-            first = node;
-            last = first;
+    private Node removeTail() {
+        Node toRemoveNode = tail.prev;
+        if (toRemoveNode == head) {
+            return null;
         }
-        else {
-            first.prev = node;
-            node.next = first;
-            node.prev = null;
-            first = node;
+        toRemoveNode.prev.next = tail;
+        tail.prev = toRemoveNode.prev;
+        toRemoveNode.prev = null;
+        toRemoveNode.next = null;
+        return null;
+    }
+
+
+    @Override
+    public Iterator<K> iterator() {
+        return new Iterator<K>() {
+
+            private Node cur = head.next;
+
+            @Override
+            public boolean hasNext() {
+                return cur != tail;
+            }
+
+            @Override
+            public K next() {
+                Node node = cur;
+                cur = cur.next;
+                return node.k;
+            }
+        };
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (K k : this) {
+            sb.append(k).append(" ");
         }
-
-        currentSize++;
-        return first;
+        return sb.toString();
     }
 
-    private ListNode<K, V> removeLast() {
-        ListNode<K, V> res = last;
-        last = last.prev;
-        last.next = null;
-        currentSize--;
-        return res;
-    }
-
-    private void moveToFirst(ListNode<K, V> node) {
-        if (node.prev != null)
-            node.prev.next = node.next;
-        if (node.next != null)
-            node.next.prev = node.prev;
-        currentSize--;
-        appendFirst(node);
-    }
-
-    static class ListNode<K, V> {
-        K key;
-        V value;
-        ListNode<K, V> prev;
-        ListNode<K, V> next;
-        ListNode(K key, V value) {
-            this.key = key;
-            this.value = value;
+    private class Node {
+        Node prev;
+        Node next;
+        K k;
+        V v;
+        public Node(K k, V v) {
+            this.k = k;
+            this.v = v;
         }
     }
 
     public static void main(String[] args) {
-        LRUCache<Integer, String> cache = new LRUCache<>(3);
-        cache.put(1, "aaa");
-        cache.put(2, "bbb");
-        cache.put(3, "ccc");
-        cache.put(1, "ddd");
-        cache.printStatus();
-        System.out.println(cache.getCurrentSize());
+        LRUCache<Integer, Integer> lruCache = new LRUCache<>(5);
+        lruCache.put(1, 1);
+        lruCache.put(2, 2);
+        lruCache.put(3, 3);
+        lruCache.put(4, 4);
+        System.out.println(lruCache);
+        lruCache.put(3, 2);
+        System.out.println(lruCache);
+        lruCache.put(1, 2);
+        System.out.println(lruCache);
+        lruCache.get(4);
+        System.out.println(lruCache);
     }
-
 }
